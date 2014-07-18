@@ -61,9 +61,4 @@ public class JobsDriver implements Driver {
     public boolean jdbcCompliant() {
         return driver.jdbcCompliant();
     }
-
-    @Override
-    public Logger getParentLogger() throws SQLFeatureNotSupportedException {
-        return driver.getParentLogger();
-    }
 }
